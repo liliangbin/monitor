@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:673c9c345144a4a631ae6f97a80e119367ad2d898306fcb05e64ce29d3b834d5"
+  name = "github.com/axgle/mahonia"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "3358181d7394e26beccfae0ffde05193ef3be33a"
+
+[[projects]]
   digest = "1:d688f4ad71b5dfad95c2d74cb0feac09f8f3c32ae5cecc078230dbdeece39e53"
   name = "github.com/codegangsta/negroni"
   packages = ["."]
@@ -21,6 +29,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/axgle/mahonia",
     "github.com/codegangsta/negroni",
     "github.com/gorilla/mux",
   ]

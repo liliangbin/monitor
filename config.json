@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "taskid": "2",
+      "script": "run.sh",
+      "script_param": "start"
+    }
+  ],
+  "db": {
+    "username": "school",
+    "password": "uUkHgIfO92ACNMyh",
+    "dbname": "school_stu_infos",
+    "address": "localhost",
+    "port": "3306"
+  }
+}
